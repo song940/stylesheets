@@ -19,6 +19,9 @@
 
 .panel {
   margin: 10px 0;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
   border: 1px solid var(--border-color, #eee);
   background-color: var(--content-background-color, white);
 }
@@ -35,7 +38,8 @@
 }
 
 .panel-body {
-  padding: 15px;
+  padding: 5px;
+  overflow: hidden;
   color: var(--text-color);
 }
 
